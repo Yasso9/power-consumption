@@ -1,0 +1,40 @@
+# .gitignore
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test artifacts
+.tox/
+.pytest_cache/
+
+# Log files
+*.log
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
